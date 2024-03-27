@@ -1,0 +1,113 @@
+
+%----------------------------------------------------------------------------------------------------------------------------
+% CV for :  RECIPIENT
+% Auteur : YOUR NAME
+% Based on : https://www.overleaf.com/latex/templates/northeastern-university-cos-faculty-cv-template/zfgnyhdpmpqg
+%Thanks  : 
+
+%----------------------------------------------------------------------------------------------------------------------------
+% MIT License : 
+%Copyright <YEAR> <AUTHOR>
+%Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+%The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+%THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+%----------------------------------------------------------------------------------------------------------------------------
+
+% Document class and font size
+\documentclass[a4paper,12pt,oneside]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=1in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+\usepackage[english, french]{babel} % Manage languages
+ \usepackage[T1]{fontenc}  % Pour la césure
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{flushleft}
+NAME\\[0pt] % Name
+ \href{mailto:exemple@domain.com}{exemple@domain.com}\\
+00-00-00-00-00\\
+Driving License
+\end{flushleft}
+
+%----------------------------------------------------------------------------------------------------------------------------
+
+% Partie : FORMATION PROFESIONNELLE
+\section*{Formation profesionnelle}
+\noindent
+\begin{flushleft}  \begin{itemize}
+\item YEAR : JOB (EMPLOYER)\\
+\item YEAR : JOB (EMPLOYER)\\
+\item YEAR : JOB (EMPLOYER)
+\item YEAR : JOB (EMPLOYER)
+\item YEAR : JOB (EMPLOYER)
+\item YEAR : JOB (EMPLOYER)
+ \end{itemize}
+\end{flushleft}
+
+%----------------------------------------------------------------------------------------------------------------------------
+
+% Partie : FORMATION INITIALE
+\section*{Formation initiale}
+\noindent
+\begin{flushleft}  \begin{itemize}
+\item YEAR :  DEGREE
+\item YEAR :  DEGREE
+\item YEAR :  DEGREE
+\item YEAR :  DEGREE
+ \end{itemize}
+\end{flushleft}
+
+%----------------------------------------------------------------------------------------------------------------------------
+
+% Partie : Compétences techniques
+\section*{Compétences techniques}
+\noindent
+\begin{flushleft} \begin{itemize}
+\item SKILL : LEVEL
+\item SKILL : LEVEL
+\item SKILL : LEVEL
+\end{itemize}
+\end{flushleft}
+
+%----------------------------------------------------------------------------------------------------------------------------
+
+% Partie : Langage etangère
+\section*{Langue étrangère}
+\noindent
+\begin{flushleft} \begin{itemize}
+\item LANGUAGE : LEVEL
+\item LANGUAGE : LEVEL
+\end{itemize}
+\end{flushleft}
+
+%----------------------------------------------------------------------------------------------------------------------------
+
+% Partie : Centre d'interet
+\section*{Centre d'interet}
+\noindent
+\begin{itemize}
+\item HOBBY ONE 
+\item OBI TWO
+\end{itemize}
+
+%----------------------------------------------------------------------------------------------------------------------------
+
+% End document
+\end{document}
